@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+main{
+	border:0;
+	clear:left;
+}
+
+
+
+
+aside
+{
+	width:144px;
+	float:left;
+	min-height:720px;
+	overflow:auto;
+	/*border:1px solid green;*/
+}
+
+#SezioneB3,#SezioneB2,#SezioneB1,#Sezione
+{
+	position:relative;
+	width:608px;
+	float:right;
+	background-color:#d8d8d8;
+	
+	/*border:1px solid yellow;*/
+	
+}
+
+#Sezione
+{
+	min-height:940px;
+	
+}
+
+#SezioneB1
+{
+	min-height:196px;
+}
+#SezioneB2
+{
+	min-height:185px;
+}
+#SezioneB3
+{
+	min-height:218px;
+}
+
+
+#paragrafoSezione
+{
+	margin:0px;
+	background-image:url(../img/pattern/backgroudsezioni.png);
+	background-repeat:repeat-x;
+	text-transform:uppercase;
+	text-align:center;
+	text-shadow:2px 2px 3px #333333;
+	color:#FFF;
+}
+
+#paragrafoLogin
+{
+	margin:0px;
+	background-color:#0b6267;
+	text-transform:uppercase;
+	text-align:center;
+	text-shadow:3px 3px 3px #333333;
+	color:#FFF;
+	
+}
+
+
+
+aside input
+{
+	margin:0 2px;
+	border:1px solid #ccc;
+	padding:0.3em;
+	border-radius:15px;
+	width:130px;
+}
+
+aside input[type="submit"]
+{
+	margin:0px 37px;
+	border:1px solid #ccc;
+	
+	border-radius:15px;
+	width:70px;
+
+}
+
+
+
+input:focus
+{
+	box-shadow:0 0 10px #7379F0;
+}
+
+
+label
+{
+	width:8em;
+	padding-right:1em;
+	display:inline-block;
+	text-align:right;
+	color:#FFF;
+	font-size:70%;
+}
+
+
+
+form button
+{
+	border-radius:5px;
+	margin:5px 45px;
+}
+
+
+.scritta
+{
+	text-align:center;
+	color:#FFF;
+	text-shadow:3px 3px 3px #333333;
+	text-transform:uppercase;
+}
+
+#SezioneB3 iframe
+{
+	float:left;
+	margin:10px 10px;
+}
+
+#SezioneB3 h3
+{
+	text-align:center;
+	font-size:16px;
+}
+
+#SezioneB3 p
+{
+	font-size:12px;
+}
+
+#SezioneB2 p
+{
+	margin:0px 5px;
+	font-size:12px;
+}
+
+#SezioneB2 img
+{
+	float:right;
+}
+
+#SezioneB2 h3
+{
+	text-align:center;
+	font-size:16px;
+}
+
+ h4
+{
+	margin:0px 5px;
+	text-align:left;
+	font-size:14px;
+}
+
+#Sezione p
+{
+	margin:0px 15px;
+	text-align:start;
+	font-size:16px;
+}
+
+
+#Sezione img
+{
+	
+	float:right;
+	margin:2px 2px;
+	margin-left:10px;
+
+	position:relative;
+}
+
