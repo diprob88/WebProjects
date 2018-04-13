@@ -1,0 +1,116 @@
+/*Customize CSS*/
+@font-face {
+    font-family: FuturaEF-Book;
+    src: url("../fonts/FuturaEF-Book.otf") format("opentype");
+}
+@font-face {
+    font-family: FuturaEF-Light;
+    src: url("../fonts/FuturaEF-Light.otf") format("opentype");
+}
+@font-face {
+    font-family: FuturaEF-Medium;
+    src: url("../fonts/FuturaEF-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: FuturaEF-Bold;
+    font-weight: bold;
+    src: url("../fonts/FuturaEF-Bold.otf") format("opentype");
+}
+
+/**/
+.container
+{
+    max-width:1000px;
+}
+#azure
+{
+    position: absolute;
+    width: 6%;
+    margin-left: 10%;
+}
+
+#footer
+{
+    width: 100%;
+}
+
+#middle
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: FuturaEF-Light;
+}
+.title{font-size: 18px;}
+
+
+.card-header>p
+{
+    font-family: FuturaEF-Book;
+}
+
+#hotel{
+    font-family: FuturaEF-Book;
+    background-image: url("../img/Hero Background.jpg");
+    background-size:cover;
+    width: 100%;
+}
+
+#top
+{
+    font-family: FuturaEF-Light;
+    position: absolute;
+    color: white;
+    width: 60%;
+}
+
+#top img
+{
+    width: 50%;
+}
+
+input.form-control,#send
+{
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 576px)
+{
+    .card
+    {
+        margin-top: 10%;
+    }
+    #call
+    {
+        font-size: 12px;
+    }
+
+    #top img {
+        width: 30%;
+        margin-left: 15%;
+    }
+
+    #radisson
+    {
+        width: 80%;
+        margin-bottom: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 768px)
+{
+
+    #top img {
+        width: 30%;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 1200px)
+{
+    #top
+    {
+        width: 100%;
+    }
+}
