@@ -1,0 +1,51 @@
+
+header h2,h3
+{
+	color: #337ab7;
+}
+
+header > h4 
+{
+	color: #1e5789;
+}
+
+header h4 ,h3
+{
+	text-transform:uppercase;
+}
+
+
+hr
+{
+	background-color: #337ab7;
+	border-radius: 2px;
+	height: 2px;
+
+}
+
+.panel-heading >h3
+{
+	color:white;
+}
+
+
+.panel-heading > p
+{
+   
+    font-size: 18px;
+	text-transform:uppercase;
+
+}
+
+footer
+{
+
+position: fixed;
+bottom: 0; 
+ 
+background-color: #337ab7;
+text-align:center;
+color: white;
+width:100%;
+	
+}
